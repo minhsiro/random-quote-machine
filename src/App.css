@@ -1,38 +1,71 @@
+html, body {
+  margin: 0px;
+}
+
 .App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+}
+
+.quote-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 27vw;
+  height: auto;
+  background-color: white;
+  border: 1px solid black;
+  padding: 0 2em 2em 2em;
+}
+
+.quote-box .quote {
+  font-family: Apple Chancery, cursive;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.quote-box .author {
+  text-align: right;
+  font-size: 1.2em;
+}
+
+.quote-box .new-quote-btn {
+  color: white;
+  cursor: pointer;
+  float: right;
+  padding: 1em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.quote-box .social-media {
+  width: 1vw;
+  height: 2em;
+  border: 1px solid black;
+  margin-right: 0.5em;
+  padding: 0.8em;
+  font-size: 0.6em;
   color: white;
+  background-color: black;
+  border-radius: 0.3em;
 }
 
-.App-link {
-  color: #61dafb;
+.fade-out {
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,68 @@
+html, body {
+  margin:0px;
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width:100vw;
+    flex-direction: column;
+    position: fixed;
+
+  }
+  .quote-box {
+    box-sizing: border-box;
+    width: 27vw;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0 2em 2em 2em;
+    .quote{
+        font-family:Apple Chancery, cursive	;
+        text-align: center;
+        font-size: 1.8em;
+
+
+    }
+    .author{
+        text-align:right;
+        font-size:1.2em;
+
+    }
+
+    .new-quote-btn{
+      color:white;
+      cursor:pointer;
+      float:right;
+      padding: 1em;
+      text-align:center;
+    }
+
+    .social-media{
+      width: 1vw;
+      height: 2em;
+      border: 1px solid black;
+      margin-right: 0.5em;
+      padding: 0.8em;
+      font-size: 0.6em;
+      color:white;
+      background-color:black;
+      border-radius: 0.3em;
+    }
+  }
+
+// .background {
+// }
+
+.fade-out {
+  transition: opacity 1s;
+  transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+
