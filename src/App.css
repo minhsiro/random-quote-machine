@@ -22,13 +22,15 @@ html, body {
 }
 
 .quote-box {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 27vw;
   height: auto;
   background-color: white;
-  border: 1px solid black;
   padding: 0 2em 2em 2em;
+  border-radius: 0.5em;
 }
 
 .quote-box .quote {
@@ -48,12 +50,16 @@ html, body {
   float: right;
   padding: 1em;
   text-align: center;
+  border-radius: 0.2em;
+}
+
+.quote-box .new-quote-btn:hover {
+  opacity: 0.7;
 }
 
 .quote-box .social-media {
   width: 1vw;
   height: 2em;
-  border: 1px solid black;
   margin-right: 0.5em;
   padding: 0.8em;
   font-size: 0.6em;
@@ -62,10 +68,59 @@ html, body {
   border-radius: 0.3em;
 }
 
+.quote-box .social-media:hover {
+  opacity: 0.7;
+}
+
+.fade-in {
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .fade-out {
-  -webkit-transition: opacity 1s;
-  transition: opacity 1s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
+  -webkit-animation-name: fadeOut;
+          animation-name: fadeOut;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 /*# sourceMappingURL=App.css.map */
