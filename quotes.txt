@@ -1,0 +1,40 @@
+When I let go of what I am, I become what I might be.
+- Lao Tzu
+
+I am not a product of my circumstances. I am a product of my decisions.
+- Stephen Covey
+
+Certain things catch your eye, but pursue only those that capture the heart.
+- Ancient Indian Proverb
+
+When I was 5 years old, my mother always told me that happiness was the key to life. When I went to school, they asked me what I wanted to be when I grew up. I wrote down ‘happy’. They told me I didn’t understand the assignment, and I told them they didn’t understand life.
+- John Lennon
+New quote
+
+Start where you are. Use what you have. Do what you can.
+- Arthur Ashe
+
+Remember that not getting what you want is sometimes a wonderful stroke of luck.
+- Dalai Lama
+
+The best time to plant a tree was 20 years ago. The second best time is now.
+- Chinese Proverb
+
+Everything has beauty, but not everyone can see.
+- Confucius
+
+
+
+double quotation
+https://unicode-table.com/en/sets/quotation-marks/
+
+social media icons
+https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+
+css fonts
+https://www.w3.org/Style/Examples/007/fonts.en.html
+
+tumblr share button
+https://www.tumblr.com/buttons
+https://www.tumblr.com/docs/en/share_button#canonical-url
+https://reactjsexample.com/social-media-share-buttons-and-share-counts-for-react/
